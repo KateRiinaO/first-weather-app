@@ -51,3 +51,6 @@ li {
 .weather-temperature a {
   text-decoration: none;
 }
+.weather-app-wrapper small {
+  text-align: center;
+}
