@@ -17,42 +17,50 @@
 
   <body>
     <div class="container">
-      <div class="weather-app">
-        <br />
-        <hr />
-        <h1>Rīga</h1>
-        <div class="row">
-          <div class="col-6">
-            <ul>
-              <li>Tuesday, 15:56</li>
-              <li>Clear sky</li>
-              <li>Humidity: 53%,</li>
-              <li>Wind: 5.81km/h</li>
-            </ul>
-          </div>
-          <div class="col-6">
-            <img
-              src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
-              alt="clear sky"
-            />
-            7 ℃ | ℉
+      <div class="weather-app-wrapper">
+        <div class="weather-app">
+          <br />
+          <hr />
+          <h1>Rīga</h1>
+          <div class="row">
+            <div class="col-6">
+              <ul>
+                <li>Tuesday, 15:56</li>
+                <li>Clear sky</li>
+                <li>Humidity: 53%,</li>
+                <li>Wind: 5.81km/h</li>
+              </ul>
+            </div>
+            <div class="col-6">
+              <div class="weather-temperature d-flex justify-content-end" >
+                <img
+                  src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
+                  alt="clear sky"
+                  
+                />
+                <strong>7</strong>
+                <span class="unit">℃ | <a href="#">
+                ℉
+                </a> </span></div>
+              </div>
+            </div>
           </div>
         </div>
+        <small>
+          The project was coded by Katerīna Orrava and is
+          <a
+            href="https://github.com/KateRiinaO/first-weather-app"
+            target="_blank"
+            >open-sourced on GitHub</a
+          >
+          and
+          <a
+            href="https://app.netlify.com/sites/festive-bardeen-52b40a/overview"
+            >hosted on Netlify</a
+          >
+        </small>
       </div>
-      <small>
-        The project was coded by Katerīna Orrava and is
-        <a
-          href="https://github.com/KateRiinaO/first-weather-app"
-          target="_blank"
-          >open-sourced on GitHub</a
-        >
-        and
-        <a href="https://app.netlify.com/sites/festive-bardeen-52b40a/overview"
-          >hosted on Netlify</a
-        >
-      </small>
     </div>
-
     <script src="src/app.js"></script>
   </body>
 </html>
