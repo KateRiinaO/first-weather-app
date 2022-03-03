@@ -36,6 +36,11 @@ function displayTemperature(response) {
   windElement.innerHTML = Math.round(response.data.wind.speed);
   let dateElement = document.querySelector("#date");
   dateElement.innerHTML = formatDate(response.data.dt * 1000);
+  let iconElement = document.querySelector("#icon");
+  iconElement.setAttribute(
+    "src",
+    `https://openweathermap.org/img/wn/04d@2x.png`
+  );
 }
 let apiKey = "faf90a5bc03e42145a435bf92d2bbff7";
 let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=Riga&appid=${apiKey}&units=metric`;
