@@ -51,7 +51,14 @@ li:first-letter {
   position: relative;
   font-size: 16px;
 }
-.weather-temperature a {
+
+.weather-temperature .active {
+  color: #2a292c;
+  cursor: default;
+  text-decoration: none;
+}
+#celsius-link,
+#fahrenheit-link {
   text-decoration: none;
 }
 .weather-app-wrapper small {
