@@ -61,6 +61,21 @@ li:first-letter {
 #fahrenheit-link {
   text-decoration: none;
 }
+.weather-forecast {
+  margin-top: 15px;
+  text-align: center;
+  color: black;
+}
+.weather-forecast-date {
+  font-size: 15px;
+  opacity: 0.7;
+}
+.weather-forecast-temperature {
+  font-size: 13px;
+}
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
 .weather-app-wrapper small {
   text-align: center;
 }
