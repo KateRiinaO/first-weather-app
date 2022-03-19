@@ -80,9 +80,11 @@ li:first-letter {
   opacity: 0.7;
 }
 .weather-forecast-temperature {
+  color: #ff803e;
   font-size: 13px;
 }
 .weather-forecast-temperature-min {
+  color: #2a292c;
   opacity: 0.5;
 }
 .weather-app-wrapper small {
